@@ -2,9 +2,32 @@
   "name": "create-my-app",
   "version": "0.0.1",
   "description": "Fast build react and vue projects",
-  "main": "index.js",
+  "bin": {
+    "create-my-app": "intl.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es6",
+    "create-my-app"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clipboardy": "^2.1.0",
+    "debug": "^4.1.1",
+    "execa": "^1.0.0",
+    "fs-extra": "^8.0.1",
+    "glob": "^7.1.4",
+    "inquirer": "^6.4.1",
+    "mkdirp": "^0.5.1",
+    "prettier": "^1.17.0",
+    "semver": "^6.1.0",
+    "sort-package-json": "^1.22.1",
+    "sylvanas": "~0.2.0",
+    "umi-utils": "^1.5.2",
+    "yargs-parser": "^13.1.1",
+    "yeoman-generator": "^4.0.1"
   },
   "repository": {
     "type": "git",
