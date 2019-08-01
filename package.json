@@ -1,0 +1,19 @@
+{
+  "name": "create-my-app",
+  "version": "0.0.1",
+  "description": "Fast build react and vue projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bigpawn/create-my-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bigpawn/create-my-app/issues"
+  },
+  "homepage": "https://github.com/Bigpawn/create-my-app#readme"
+}
